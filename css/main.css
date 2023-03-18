@@ -127,11 +127,11 @@
      }
   
      img {
-  
+        width: 100%
      }
   
      figure {
-  
+        margin: 0;
      }
   
      address {
@@ -147,7 +147,7 @@
   
 header,
 footer {
-  color: #202322;
+  background-color: #202322;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,6 +156,14 @@ footer {
   
   header {
     padding: 15px 0;
+  }
+
+  header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
   }
   
   header .content-wrapper {
@@ -229,6 +237,10 @@ footer {
   /**** Hero Area ****/
 
   .hero-area {
+    background: url('../img/unplugged-retreat.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -285,6 +297,9 @@ footer {
   }
   
   .features {
+    background: url('../img/unplugged-retreat-features.jpg');
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -292,6 +307,11 @@ footer {
   
   .features h2 {
     margin-bottom: 60px;
+  }
+
+  .features p {
+    text-align: center;
+    margin: 0;
   }
   
   .features .features-items {
@@ -305,11 +325,12 @@ footer {
   
   .reviews h3 {
     width: 55%;
-    margin: 20px;
+    margin: 20px 0;
   }
   
   .reviews h2 {
     margin-bottom: 40px;
+    line-height: 1;
   }
   
   .reviews {
@@ -469,6 +490,10 @@ footer {
       justify-content: space-around;
       padding: 33px 0;
     }
+
+    header figure {
+      width: 30%;
+    }
   
     header .content-wrapper {
       width: 100%;
@@ -516,9 +541,20 @@ footer {
       justify-content: space-between;
     }
   
+    .reviews article figure,
     .reviews article div {
-      width: 50%;
+      width: 49%;
     }
+
+    .reviews h2 {
+      width: 85%;
+    }
+
+    .reviews h3 {
+      width: 59%;
+      margin: 0;
+    }
+    
   
     footer .content-wrapper {
       width: 65%;
