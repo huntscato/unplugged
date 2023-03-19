@@ -667,22 +667,26 @@ footer {
        FAQ Page
        ========================================================================== */
 
-       .header figure {
-        width: 30%;
-       }
-
       .faq .content-wrapper {
         justify-content: space-between;
+        margin: 50px 0 50px 0;
       }
-  
-      .faq content {
-        flex-basis: 40%
+    
+      .faq-content {
+        flex-basis: 45%;
       }
-  
+    
       .faq h2 {
         width: 100%;
       }
-  }
+    
+      .faq h4,
+      .faq p {
+          font-size: .875em;
+          line-height: 1.125;
+      }
+    }
+       
   @media only screen and (min-width: 1200px) {
     /* Desktop Styles Here */
   
@@ -733,8 +737,14 @@ footer {
   
     .faq h2 {
       width: 100%;
+      font-size: 3em;
     }
-  
+      
+    .faq h4,
+    .faq p {
+        font-size: 1.125em;
+        line-height: 1;
+    }
   }
   
   /* ==========================================================================
