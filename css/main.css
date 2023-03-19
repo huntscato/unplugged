@@ -108,6 +108,10 @@
       color: #e2e3ed;
       text-decoration: none;
      }
+
+     h1 {
+      margin: 6px;
+     }
   
      h2 {
       font-family: 'Poppins', sans-serif;
